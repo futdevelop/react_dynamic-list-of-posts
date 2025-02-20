@@ -58,7 +58,7 @@ export const App = () => {
                   </div>
                 )}
 
-                {/* // ! Доробити щоб no posts не з'являлось перед запитом */}
+                {/* // ! Доробити щоб no  posts не з'являлось перед запитом */}
                 {posts && posts.length > 0 ? (
                   <PostsList />
                 ) : (
